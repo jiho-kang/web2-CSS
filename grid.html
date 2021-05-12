@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #grid{
+        border: 5px solid pink;
+        display:grid;
+        grid-template-columns: 150px 1fr;
+        /*
+        grid의 템플렛은 열로 하겠다.
+        첫번째 열: 150px
+        두번째 열: 남은 공간을 1비율로 모두 차지 하겠다.
+        만약 첫번째 열, 두번째열을 화면 전체 중 a대 b비율로 갖고 싶다면?
+        grid-template-columns: afr bfr
+        */
+
+      }
+      div{
+        border:5px solid gray;
+      }
+      /*
+      CSS 내의 주석: /* 내용 */
+      /*
+      HTML주석: <!-- 내용 --->
+      */
+
+    </style>
+
+  </head>
+  <body>
+    <!--
+      특별한 목적 없이 디자인 용도로 사용하는 태그
+      block level element: div
+      inline level element: span
+    --->
+    <div id="grid">
+      <div>NAVIGATION</div>
+      <div>ARTICLE</div>
+    </div>
+
+  </body>
+</html>
